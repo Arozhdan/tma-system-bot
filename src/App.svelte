@@ -104,7 +104,6 @@
       <h1>Notes</h1>
       <p class="muted">Hi, {$auth.user.firstName}! It's test</p>
     </header>
-
     <form onsubmit={(e) => { e.preventDefault(); addNote() }}>
       <div class="input-row">
         <input

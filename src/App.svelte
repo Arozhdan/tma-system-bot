@@ -20,6 +20,9 @@
     let jwt: string | null = null
     auth.subscribe((s) => (jwt = s.jwt))()
 
+    if (!jwt) {
+      throw new Error("Not authenticated")
+    }
     const res = await fetch(path, {
       ...options,
       headers: {

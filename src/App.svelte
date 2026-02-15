@@ -1,7 +1,9 @@
 <script lang="ts">
   import { createTelegramAuth } from "@tma.sh/sdk/svelte"
 
-  const auth = createTelegramAuth()
+  const auth = createTelegramAuth({
+    projectId: "703134b2-6dc7-49d0-bb89-d83ba48c622c",
+  })
 
   interface Note {
     key: string

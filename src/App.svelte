@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createTelegramAuth } from "@tma.sh/sdk/dist/svelte"
+  import { createTelegramAuth } from "@tma.sh/sdk/svelte"
 
   const auth = createTelegramAuth()
 

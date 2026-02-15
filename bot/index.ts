@@ -17,6 +17,12 @@ export default defineBot({
     const kv = createKV(ctx.env.KV)
     const prefix = `notes:${userId}:`
 
+    // /test - just to test pr deployment
+    if (text === "/test") {
+      await ctx.reply("ping pong")
+      return
+    }
+
     // /start — send web app button
     if (text === "/start") {
       await ctx.reply("Welcome to Notes! Tap below to open the app, or use commands to manage notes.", {

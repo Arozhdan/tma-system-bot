@@ -5,7 +5,7 @@
     "": {
       "name": "tma-system-bot",
       "dependencies": {
-        "@tma.sh/sdk": "^0.1.2",
+        "@tma.sh/sdk": "^0.1.3",
         "hono": "^4.11.9",
         "svelte": "^5.0.0",
       },
@@ -135,7 +135,7 @@
 
     "@sveltejs/vite-plugin-svelte-inspector": ["@sveltejs/vite-plugin-svelte-inspector@4.0.1", "", { "dependencies": { "debug": "^4.3.7" }, "peerDependencies": { "@sveltejs/vite-plugin-svelte": "^5.0.0", "svelte": "^5.0.0", "vite": "^6.0.0" } }, "sha512-J/Nmb2Q2y7mck2hyCX4ckVHcR5tu2J+MtBEQqpDrrgELZ2uvraQcK/ioCV61AqkdXFgriksOKIceDcQmqnGhVw=="],
 
-    "@tma.sh/sdk": ["@tma.sh/sdk@0.1.2", "", { "dependencies": { "jose": "^6.0.11" }, "peerDependencies": { "hono": ">=4.0.0", "react": ">=18.0.0", "svelte": ">=4.0.0" }, "optionalPeers": ["hono", "react", "svelte"] }, "sha512-Ktto/VzS4jeYNtkghvAHzIrzMTEkxdyjd8eJ+y7CcAZuB7LRBSEqUT+EtZPit0cB4uVnxN8U1jx5M3Ae1bzvtA=="],
+    "@tma.sh/sdk": ["@tma.sh/sdk@0.1.3", "", { "dependencies": { "jose": "^6.0.11" }, "peerDependencies": { "hono": ">=4.0.0", "react": ">=18.0.0", "svelte": ">=4.0.0" }, "optionalPeers": ["hono", "react", "svelte"] }, "sha512-zjO9zD2HfPIueWah5ual/kQbn8pm4V/FCmH7ZT2lyNJWv5iM/NFPO4BhaHeIdnsnymPWDs9za6G7Gzcxz2ejvg=="],
 
     "@types/estree": ["@types/estree@1.0.8", "", {}, "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="],
 
